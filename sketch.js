@@ -37,7 +37,7 @@ function setup(){
 function draw(){
     
     background("black");
-    //text(mouseX + ',' + mouseY, 10, 15);
+    text(mouseX + ',' + mouseY, 10, 15);
     Engine.update(engine);
 
     rect1.display();
