@@ -1,9 +1,19 @@
+In Physic Engine, Matter.js, We create triangles using a Polygon. 
+Please refer this for syntax : https://brm.io/matter-js/docs/classes/Bodies.html
 
-We use physics engine to make the shapes.
+i.e; polygon(x,y,sides,radius)
 
-Refer to the link : https://brm.io/matter-js/docs/classes/Bodies.html
+But we are displaying using p5.js, so we use the concept of vertices, to display triangle,
+Please refer this for syntax: https://p5js.org/reference/#/p5/triangle
 
-For display in P5 refer : https://p5js.org/reference/
-
+i.e; triangle(x1, y1, x2, y2, x3, y3)
+  
+    x1 Number: x-coordinate of the first point
+    y1 Number: y-coordinate of the first point
+    x2 Number: x-coordinate of the second point
+    y2 Number: y-coordinate of the second point
+    x3 Number: x-coordinate of the third point
+    y3 Number: y-coordinate of the third point
+    
 For shapes refer :  https://p5js.org/reference/#/p5/triangle
-                    https://p5js.org/reference/#/p5/rect
+                    https://p5js.org/reference/#/p5/rect    
