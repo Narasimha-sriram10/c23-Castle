@@ -17,7 +17,7 @@ class Rectangle {
       rotate(angle);
       rectMode(CENTER);
       fill(206,177,33);
-      rect(0, 0, this.width, this.height);
+      rect(pos.x, pos.y, this.width, this.height);
       pop();
     }
   };

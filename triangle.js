@@ -7,7 +7,7 @@ class Triangle{
         }
         this.body = Bodies.polygon(x, y, sides, radius, options);
       
-        
+        console.log(this.body);
         World.add(world, this.body);
     }
     display(){
